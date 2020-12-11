@@ -1,0 +1,67 @@
+@import "src/styles";
+
+.top-bar {
+  display: flex;
+
+  height: 68px;
+  width: 100%;
+
+  background: linear-gradient(75deg, rgb(214, 180, 247), rgb(173, 203, 231));
+
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+
+    text-transform: uppercase;
+
+    color: $dark;
+
+    letter-spacing: 1px;
+  }
+}
+
+.total-budget-section {
+  display: flex;
+
+  height: 250px;
+
+  background-color: $dark;
+
+  justify-content: center;
+  align-items: center;
+
+  h2 {
+    font-size: 58px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+
+    color: $white;
+
+    &.green {
+      color: lighten($green, 12%);
+    }
+
+    &.red {
+      color: lighten($red, 12%);
+    }
+  }
+}
+
+.add-item-section {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  .add-item-container {
+    width: 680px;
+
+    app-add-item-form {
+      padding: 20px;
+    }
+  }
+}

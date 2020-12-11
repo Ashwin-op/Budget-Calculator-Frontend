@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+  height="24"
+  id="svg1062"
+  inkscape:version="0.92.3 (2405546, 2018-03-11)"
+  sodipodi:docname="delete_icon.svg"
+  version="1.1"
+  viewBox="0 0 6.3499999 6.3499999"
+  width="24"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:cc="http://creativecommons.org/ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd">
+  <defs
+    id="defs1056"/>
+  <sodipodi:namedview
+    bordercolor="#666666"
+    borderopacity="1.0"
+    id="base"
+    inkscape:current-layer="layer1"
+    inkscape:cx="66.198566"
+    inkscape:cy="7.0336445"
+    inkscape:document-units="px"
+    inkscape:pageopacity="0.0"
+    inkscape:pageshadow="2"
+    inkscape:window-height="1017"
+    inkscape:window-maximized="1"
+    inkscape:window-width="1920"
+    inkscape:window-x="1912"
+    inkscape:window-y="-8"
+    inkscape:zoom="3.959798"
+    pagecolor="#ffffff"
+    showgrid="false"
+    units="px"/>
+  <metadata
+    id="metadata1059">
+    <rdf:RDF>
+      <cc:Work
+        rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+          rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+    id="layer1"
+    inkscape:groupmode="layer"
+    inkscape:label="Layer 1"
+    transform="translate(236.69314,-85.110975)">
+    <path
+      d="m -234.80206,87.002068 2.56783,2.567808 m 0,-2.567803 -2.56783,2.567808"
+      id="path1050"
+      inkscape:connector-curvature="0"
+      style="fill:none;stroke:#dc3900;stroke-width:0.41227672;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"/>
+  </g>
+</svg>
