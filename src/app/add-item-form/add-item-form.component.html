@@ -1,11 +1,12 @@
-<form>
+<form #itemForm="ngForm" (ngSubmit)="onSubmit(itemForm)">
   <div class="field is-horizontal">
     <div class="field-body">
 
       <div class="field is-narrow">
         <p class="control">
           <label>
-            <input class="input" placeholder="Amount" style="width: 100px" type="number">
+            <input [ngModel]="budgetItem.amount" class="input" name="amount" placeholder="Amount" required
+                   style="width: 100px" type="number">
           </label>
         </p>
       </div>
@@ -13,13 +14,14 @@
       <div class="field">
         <p class="control">
           <label>
-            <input class="input" placeholder="Description" type="text">
+            <input [ngModel]="budgetItem.description" class="input" name="description" placeholder="Description"
+                   required type="text">
           </label>
         </p>
       </div>
 
       <div class="field is-narrow">
-        <button class="button is-primary">Add</button>
+        <button [disabled]="!itemForm.valid" class="button is-primary" type="submit">Add</button>
       </div>
 
     </div>
