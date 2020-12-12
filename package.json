@@ -1,6 +1,7 @@
 {
   "name": "budget-calculator-frontend",
-  "version": "0.0.0",
+  "description": "A simple budget calculator made with Angular.",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -9,6 +10,10 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
+  "author": {
+    "name": "Ashwin"
+  },
+  "license": "MIT",
   "private": true,
   "dependencies": {
     "@angular/animations": "~11.0.3",
